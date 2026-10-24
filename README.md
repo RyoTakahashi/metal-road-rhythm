@@ -3,6 +3,8 @@
 [Metal Road ~Success!~](https://github.com/RyoTakahashi/metal-road-success)（社会人メタルバンド育成シミュレーション）のスピンオフ。
 キャラクター設定はそのままに、**パート別のリズムゲーム**にしたもの。
 
+▶ **プレイ:** https://ryotakahashi.github.io/metal-road-rhythm/
+
 ## 遊び方
 
 1. タイトル → **パート（メンバー）を選択** → 曲を選択 → LIVE START
@@ -71,6 +73,7 @@ npm run sim      # 譜面密度・評価バランスの確認
 ```
 
 - `?auto=1` を付けるとオートプレイ（デモ・動作確認用）。
+- `main` への push で GitHub Actions（`.github/workflows/pages.yml`）が GitHub Pages にデプロイ。
 - 設定（ノーツ速度・タイミング調整・打鍵音）とベスト記録は localStorage に保存。
 
 ## 構成
